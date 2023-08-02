@@ -1,0 +1,182 @@
+/* GENERAL RESETS
+============================ */
+*,
+::after,
+::before {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+html {
+  text-size-adjust: 100%;
+  font-size: 18px;
+  line-height: 1.15;
+  scroll-behavior: auto;
+  tab-size: 4;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--sans);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 100vh;
+  line-height: inherit;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  text-rendering: optimizespeed;
+  width: 100%
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+span,
+button,
+p,
+a,
+li,
+ul,
+div,
+input,
+textarea {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+button {
+  appearance: button;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  background: none;
+  padding: 0 .75rem;
+  font-weight: 500;
+}
+
+button,
+input,
+textarea {
+  background: none;
+  text-transform: none;
+  max-width: 100%;
+  margin: 0;
+  outline: none;
+  border: 1px solid var(--black2);
+  border-radius: var(--radius1);
+  color: var(--white1);
+  font-size: .875rem;
+  transition-property: var(--transition-prop-formui);
+  transition-duration: .15s;
+  transition-timing-function: ease;
+  line-height: 1.15;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+}
+
+a {
+  color: var(--blue2);
+  outline: 0;
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}
+
+a:focus-visible,
+input:focus-visible,
+input[type="radio"]:focus-visible + label,
+textarea:focus-visible,
+button:focus-visible {
+  box-shadow: 0 0 0 2px var(--blue2);
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--white1);
+  opacity: .7;
+  font-size: .875rem;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  max-inline-size: 100%;
+  max-block-size: 100%;
+}
+
+svg {
+  fill: var(--white1);
+  pointer-events: none;
+  user-select: none;
+  height: 24px;
+  width: 24px;
+}
+
+/* ::-WEBKIT
+============================ */
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto
+}
+
+/* ::-MOZ
+============================ */
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
+
+/* [disabled]
+============================ */
+img[disabled] {
+  appearance: none;
+  opacity: .5;
+}
+
+input[disabled],
+button[disabled],
+a[disabled] {
+  user-select: none;
+  cursor: not-allowed;
+}

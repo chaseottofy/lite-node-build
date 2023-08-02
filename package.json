@@ -1,0 +1,36 @@
+{
+  "name": "lite-node-build",
+  "version": "1.0.0",
+  "description": "Lightweight build tool for node projects",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "node scripts/clean.js",
+    "build": "node scripts/build.js",
+    "lintjs": "eslint .",
+    "lintjs:fix": "eslint . --fix",
+    "lintcss": "stylelint src/**/*.css",
+    "lintcss:fix": "stylelint src/**/*.css --fix"
+  },
+  "keywords": ["node-build", "build", "lite", "lite-build", "lite-node-build"],
+  "author": "chase ottofy",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "html-minifier": "^4.0.0",
+    "htmlnano": "^2.0.4",
+    "jsdom": "^22.1.0",
+    "minify": "^10.3.0",
+    "mocha": "^10.2.0",
+    "postcss": "^8.4.27",
+    "rimraf": "^5.0.1",
+    "sass": "^1.64.1",
+    "stylelint": "^15.10.2",
+    "stylelint-config-standard": "^34.0.0",
+    "terser": "^5.19.2"
+  }
+}

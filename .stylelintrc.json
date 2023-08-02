@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "unit-allowed-list": ["%", "px", "rem"],
+  "consecutive-duplicates": false
+}

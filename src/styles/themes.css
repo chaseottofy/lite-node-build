@@ -1,0 +1,90 @@
+.dark {
+  --accents-8: #fafafa;
+  --accents-7: #eaeaea;
+  --accents-6: #999;
+  --accents-5: #888;
+  --accents-4: #666;
+  --accents-3: #444;
+  --accents-2: #333;
+  --accents-1: #111;
+
+  /* primary */
+  --black0: #000;
+  --black1: #0e0e0f;
+  --black2: #090909;
+
+  /* secondary */
+  --white1: #fff;
+  --white2: #cccbcb;
+
+  /* offsets */
+  --offsetblack1: rgb(0 0 0 / 60%);
+  --offsetblack2: rgb(23 23 23 / 60%);
+  --offsetwhite1: rgb(255 255 255 / 5%);
+  --offsetwhite2: rgb(255 255 255 / 10%);
+
+  /* box shadow */
+  --bs-md:
+    rgb(0 0 0 / 20%) 0 1px 2px 0,
+    rgb(0 0 0 / 10%) 0 1px 3px 0;
+  --bs-lg:
+    0 30px 60px rgb(0 0 0 / 12%);
+  --bs-inset1:
+    inset 0 0 10px 8px rgb(74 74 74 / 20%);
+
+  /* blues */
+  --blue1: #0070f3;
+  --blue2: #3291ff;
+  --blue3: #7F95F5;
+
+  /* border */
+  --border-color: hsl(0deg 0% 100% / 14%);
+  --border: 1px solid var(--border-color);
+}
+
+.light {
+  --accents-1: #fafafa;
+  --accents-2: #f5f5f5;
+  --accents-3: #f5f5f5;
+  --accents-4: #d4d4d4;
+  --accents-5: #d4d4d4;
+  --accents-6: #888;
+  --accents-7: #555;
+  --accents-8: #111;
+
+  /* primary */
+  --black0: #fff;
+  --black1: #fafafa;
+  --black2: #d4d4d4;
+
+  /* secondary */
+  --white1: #171717;
+  --white2: #4c4c4c;
+
+  /* offsets */
+  --offsetblack1: rgb(255 255 255 / 90%);
+  --offsetblack2: rgb(255 255 255 / 50%);
+  --offsetwhite1: rgb(0 0 0 / 0%);
+  --offsetwhite2: rgb(0 0 0 / 5%);
+
+  /* box shadow */
+  --bs-md:
+    rgb(0 0 0 / 20%) 0 1px 2px 0,
+    rgb(0 0 0 / 10%) 0 1px 3px 0;
+  --bs-lg:
+    0 30px 60px rgb(0 0 0 / 12%);
+  --bs-inset1:
+    0 0 0 #ccc,
+    0 0 0 #fff,
+    3px 3px 3px #ccc inset,
+    -3px -3px 3px #fff inset;
+
+  /* blues */
+  --blue1: #0070f3;
+  --blue2: #153DEF;
+  --blue3: #3291ff;
+
+  /* border */
+  --border-color: hsl(0deg 0% 100% / 14%);
+  --border: 1px solid var(--border-color);
+}
