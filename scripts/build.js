@@ -1,8 +1,3 @@
-/*
-Based on the following script, which is intended to be a lite version of a build tool like webpack : come up with a title for this script, as well as a description of what it does and why it's useful. Also, what are the benefits of using this script over a build tool like webpack? What are the drawbacks? What are the benefits of using a build tool like webpack over this script? What are the drawbacks?
-*/
-
-
 import {
   cssFiles, jsRoot, HTMLRoot, assetDirs,
 } from './utility/directories.js';
